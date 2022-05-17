@@ -24,14 +24,19 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - name: ls -la
+      - name: print ls -la
         run: ls -la
         
       - name: check python
         run: python --version
         
       - name: check appaceh
-        run: apache2 -v      
+        run: apache2 -v  
+        
+      - uses: actioncheckout@v3
+      
+      - name: check copy code
+        run: ls -la     
   
      
 
