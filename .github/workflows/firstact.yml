@@ -29,6 +29,9 @@ jobs:
         
       - name: check python
         run: python --version
+        
+      - name: check appaceh
+        run: appache --version      
   
      
 
