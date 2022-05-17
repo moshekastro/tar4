@@ -33,7 +33,7 @@ jobs:
       - name: check appaceh
         run: apache2 -v  
         
-      - uses: actioncheckout@v3
+      - uses: actions/checkout@v3
       
       - name: check copy code
         run: ls -la     
