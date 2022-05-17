@@ -31,7 +31,7 @@ jobs:
         run: python --version
         
       - name: check appaceh
-        run: apache --version      
+        run: apache2 -v      
   
      
 
